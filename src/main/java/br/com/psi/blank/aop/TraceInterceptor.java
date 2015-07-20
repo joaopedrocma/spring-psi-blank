@@ -16,11 +16,10 @@ public class TraceInterceptor extends CustomizableTraceInterceptor {
 
 	@Override
 	protected void writeToLog(Log logger, String message, Throwable ex) {
-		if (ex != null) {
+		
 			logger4J.debug(message, ex);
-		} else {
+		
 			logger4J.debug(message);
-		}
 	}
 
 	@Override
