@@ -7,6 +7,7 @@ import org.springframework.aop.interceptor.CustomizableTraceInterceptor;
 
 /**
  * Extends {@link CustomizableTraceInterceptor} to provide custom logging levels
+ * @autor jota
  */
 public class TraceInterceptor extends CustomizableTraceInterceptor {
 
